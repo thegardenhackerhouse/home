@@ -11,7 +11,7 @@
 body {
   background: #fff;
   color: #2f3138;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Georgia", serif;
 }
 
 a {
@@ -512,7 +512,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Georgia", serif;
   font-size: 20px;
   font-weight: 200;
   text-transform: lowercase;
@@ -1021,7 +1021,7 @@ padding-bottom: 60px;
   color:#3c3c3c; 
 font-size:24px; 
 font-weight:500;
-font-family: 'Poppins', sans-serif;
+font-family: 'Georgia', serif;
 padding: 10px 0;
 }
 .practice-area .inner p{ 

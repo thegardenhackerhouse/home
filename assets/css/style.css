@@ -11,7 +11,7 @@
 body {
   background: #fff;
   color: #2f3138;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Georgia", serif;
 }
 
 a {
@@ -1118,7 +1118,7 @@ margin:0 5px;
 #faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #c9497e;
+  font-family: "Georgia", serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;

@@ -11,7 +11,7 @@
 body {
   background: #fff;
   color: #2f3138;
-  font-family: "Geogria", serif;
+  font-family:"Montesserat", sans-serif;
 }
 
 a {
@@ -32,7 +32,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Georgia", serif;
+  font-family:'Space Mono', monospace;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -187,6 +187,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #c9497e;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
+  font-family:"Space Mono", monospace;
   line-height: 1;
   font-size: 13px;
   white-space: nowrap;
@@ -238,8 +239,8 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgba(141, 143, 151, 0.8);
-  font-family: "Georgia", serif;
+  color: rgba(227, 231, 243, 0.678);
+  font-family:'Space Mono', monospace;
   font-weight: 600;
   font-size: 14px;
   white-space: nowrap;
@@ -272,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #000;
+  color: #c9497e;
 }
 
 .navbar .dropdown ul {
@@ -449,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/sfbb1.jpg);
+  background: url(../img/venue-gallery/E.jpg);
   background-position: 50% 90%;
   background-size: cover;
   overflow: hidden;
@@ -494,7 +495,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   color: #fff;
-  font-family: "Georgia", serif;
+  font-family:'Space Mono', monospace;
   font-size: 60px;
   font-weight: 400;
   text-align: center;
@@ -512,7 +513,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montesserat", sans-serif;
   font-size: 20px;
   font-weight: 200;
   text-transform: lowercase;
@@ -601,7 +602,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .about-btn {
-  font-family: "Georgia", serif;
+  font-family:'Space Mono', monospace;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -647,53 +648,129 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-#about {
-  background: #fff;
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-  color: #fff;
-  padding: 60px 0 40px 0;
-}
-
-@media (min-width: 1024px) {
-  #about {
-    background-attachment: fixed;
-  }
-}
-
-#about:before {
-  content: "";
-  background: #fff;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#about h2 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #000;
+.service-5 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+  font-size: 16px;
   text-align: center;
 }
 
-#about h3 {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  color: #c9497e;
+.service-5 h1, .service-5 h2, .service-5 h3, .service-5 h4, .service-5 h5, .service-5 h6 {
+  color: #3e4555;
+  font-family: "Montserrat", sans-serif;
+  font-weight:700;
+  line-height: 24px;
+  font-size: 16px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  justify-content: center;
   text-align: center;
 }
 
-#about p {
-  font-size: 14px;
-  margin-bottom: 20px;
-  color: #000;
+.service-5 a{
+	text-decoration: none;
+}
+
+.service-5 .linking{
+	color: #3e4555;
+}
+
+.service-5 .linking:hover{
+	color: #316ce8;
+}
+
+.service-5 .font-weight-medium {
+	font-weight: 700;
+  font-size: 24px;
+  color:#c9497e;
+  font-family: "Space Mono",monospace;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  justify-content: center;
   text-align: center;
+}
+
+.service-5 .bg-light {
+    background-color: #fff !important;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    justify-content: center;
+    text-align: center;
+}
+
+.service-5 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    justify-content: center;
+    text-align: center;
+}
+
+.service-5 .card.card-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.service-5 .wrap-service5-box .card-body {
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    justify-content: center;
+}
+
+.service-5 .wrap-service5-box .text-success-gradiant {
+	background: #c9497e;
+	background: -webkit-linear-gradient(legacy-direction(to right), #c9497e 0%, #ffb515 100%);
+	background: -webkit-gradient(linear, left top, right top, from(#c9497e), to(#ffb515));
+	background: -webkit-linear-gradient(left, #c9497e 0%, #ffb515 100%);
+	background: -o-linear-gradient(left, #c9497e 0%, #ffb515 100%);
+	background: linear-gradient(to right, #c9497e 0%, #ffb515 100%);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+}
+
+.service-5 .wrap-service5-box .icon-size{
+	font-size: 45px;
+}
+
+.service-5 .btn-success-gradiant {
+	  background: #c9497e;
+    background: -webkit-linear-gradient(legacy-direction(to right), #c9497e 0%, #ffb515 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#c9497e), to(#ffb515));
+    background: -webkit-linear-gradient(left, #c9497e 0%, #ffb515 100%);
+    background: -o-linear-gradient(left, #c9497e 0%, #ffb515 100%);
+    background: linear-gradient(to right, #c9497e 0%, #ffb515 100%);
+}
+
+.service-5 .btn-success-gradiant:hover {
+	  background: #ffb515;
+    background: -webkit-linear-gradient(legacy-direction(to right), #ffb515 0%, #c9497e 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#ffb515), to(#c9497e));
+    background: -webkit-linear-gradient(left, #ffb515 0%, #c9497e 100%);
+    background: -o-linear-gradient(left, #ffb515 0%, #c9497e 100%);
+    background: linear-gradient(to right, #ffb515 0%, #c9497e 100%);
+}
+
+.service-5 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+    font-weight:600;
+    font-family: "Space Mono",monospace;
 }
 
 /*--------------------------------------------------------------
@@ -1021,7 +1098,7 @@ padding-bottom: 60px;
   color:#3c3c3c; 
 font-size:24px; 
 font-weight:500;
-font-family: 'Georgia', serif;
+font-family:'Space Mono', monospace;
 padding: 10px 0;
 }
 .practice-area .inner p{ 
@@ -1091,7 +1168,7 @@ margin:0 5px;
  color:#767676;
 }
 .our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
- color:#025a8e;
+ color:#ffb515;
 }
 
 
@@ -1118,7 +1195,7 @@ margin:0 5px;
 #faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: "Georgia", serif;
+  font-family:'Space Mono', monospace;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1136,10 +1213,14 @@ margin:0 5px;
 }
 
 #faq .faq-list p {
-  margin-bottom: 0;
+  margin-bottom: 10px;
   padding: 10px 0 0 25px;
 }
 
+#faq3 .faq-list-list li {
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 25px;
+}
 #faq .faq-list .icon-show {
   display: none;
 }
@@ -1223,7 +1304,7 @@ margin:0 5px;
 }
 
 #subscribe button:hover {
-  background: #e0072f;
+  background: #c9497e;
 }
 
 @media (max-width: 460px) {
@@ -1292,7 +1373,7 @@ margin:0 5px;
 #contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: #c9497e;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1360,7 +1441,7 @@ margin:0 5px;
 }
 
 #contact .php-email-form button[type="submit"]:hover {
-  background: #e0072f;
+  background: #c9497e;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1405,7 +1486,7 @@ margin:0 5px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Georgia", serif;
+  font-family: "Montesserat", sans-serif;
   font-weight: 700;
   color: #fff;
 }
@@ -1419,7 +1500,7 @@ margin:0 5px;
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Georgia", serif;
+  font-family: "Montesserat", sans-serif;
   color: #fff;
 }
 
@@ -1521,7 +1602,7 @@ margin:0 5px;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #e0072f;
+  background: #c9497e;
 }
 
 #footer .copyright {

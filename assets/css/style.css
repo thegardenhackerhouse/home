@@ -160,11 +160,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 span {
-  color: #D291BC;
+  font-family:'Space Mono', monospace;
+  text-transform: lowercase;
+  font-size: 30px;
+  background: linear-gradient(45deg,#E0BBE4, #957DAD, #D291BC, #FEC8D8, #FFDFD3);
+  background-size: 600% 100%;
+  animation: gradient 8s linear infinite;
+  animation-direction: alternate;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
+  color: none;
 }
 
 #header #logo img {

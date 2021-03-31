@@ -367,10 +367,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile {
-  
   position: fixed;
   overflow: hidden;
-  visibility: hidden;
   top: 0;
   right: 0;
   left: 0;
@@ -382,7 +380,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
-  visibility: hidden;
   top: 15px;
   right: 15px;
 }
@@ -424,6 +421,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile .dropdown ul {
   position: static;
+  display: none;
   margin: 10px 20px;
   padding: 10px 0;
   z-index: 99;

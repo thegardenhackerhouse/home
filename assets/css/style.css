@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .mobile-nav-toggle {
   color: rgba(0, 0, 0, 0);
-  font-size: 28px;
+  font-size: 0px;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -383,32 +383,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0);
-  transition: 0.3s;
-  z-index: 999;
+  display: none;
 }
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
   display: none;
-  top: 15px;
-  right: 15px;
+  top: 0px;
+  right: 0px;
 }
 
 .navbar-mobile ul {
   display: none;
   position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding: 0px 0;
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
@@ -423,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a {
-  padding: 10px 20px;
+  padding: 0px 0px;
   font-size: 15px;
   color: #fff;
 }
@@ -433,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .getstarted {
-  margin: 15px;
+  margin: 0px;
 }
 
 .navbar-mobile .dropdown ul {

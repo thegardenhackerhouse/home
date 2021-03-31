@@ -380,12 +380,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
+  display: none;
   top: 15px;
   right: 15px;
 }
 
 .navbar-mobile ul {
-  display: block;
+  display: none;
   position: absolute;
   top: 55px;
   right: 15px;

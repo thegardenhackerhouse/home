@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgba(227, 231, 243, 0.678);
+  color: rgba(195, 199, 211, 0.678);
   font-family:'Space Mono', monospace;
   font-weight: 600;
   font-size: 14px;

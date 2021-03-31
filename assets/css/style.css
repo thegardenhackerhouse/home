@@ -644,7 +644,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .service-5 {
   font-family: "Montserrat", sans-serif;
-	color: #8d97ad;
+	color: #9195a2;
   font-weight: 300;
   font-size: 16px;
   text-align: center;
@@ -1318,6 +1318,7 @@ margin:0 5px;
 --------------------------------------------------------------*/
 #contact {
   padding: 60px 0;
+  background:#f8f9fa;
 }
 
 #contact .contact-info {

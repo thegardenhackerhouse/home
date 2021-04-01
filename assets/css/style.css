@@ -1181,7 +1181,19 @@ color:#337ab7;
 
 @media(max-width: 991px){
   .our-webcoderskull .cnt-block h2 {
-    font-size: 30px;
+    font-family: "Space Mono", monospace;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    transform: translate(0%, 10%);
+    background: linear-gradient(45deg,#E0BBE4, #957DAD, #D291BC, #FEC8D8, #FFDFD3);
+    background-size: 600% 100%;
+    animation: gradient 8s linear infinite;
+    animation-direction: alternate;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
   }
 }
 

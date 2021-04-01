@@ -193,14 +193,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 992px) {
-  #header #logo {
-    justify-content: center;
-  }
   #header #logo img {
     max-height: 30px;
   }
   #header #logo h1 {
-    font-size:15px;
+    font-size:20px;
   }
 }
 

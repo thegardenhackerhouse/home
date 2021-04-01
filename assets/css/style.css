@@ -665,7 +665,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.service-5 h1, .service-5 h2, .service-5 h3, .service-5 h4, .service-5 h5, .service-5 h6 {
+.service-5 h1,.service-5 h2, .service-5 h3, .service-5 h4, .service-5 h5, .service-5 h6 {
   color: #3e4555;
   font-family: "Montserrat", sans-serif;
   font-weight:700;
@@ -1129,6 +1129,7 @@ display:inline-block;
  border:2px solid #000;
  margin: 0 0 28px;
 }
+
 .our-webcoderskull .cnt-block figure{
  width:148px; 
  height:148px; 
@@ -1161,6 +1162,23 @@ color:#337ab7;
  line-height:20px; 
  font-weight:400;
 }
+
+.our-webcoderskull .cnt-block h2 {
+  font-family: "Space Mono", monospace;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  transform: translate(0%, 10%);
+  background: linear-gradient(45deg,#E0BBE4, #957DAD, #D291BC, #FEC8D8, #FFDFD3);
+  background-size: 600% 100%;
+  animation: gradient 8s linear infinite;
+  animation-direction: alternate;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+}
+
 .our-webcoderskull .cnt-block .follow-us{
 margin:20px 0 0;
 }

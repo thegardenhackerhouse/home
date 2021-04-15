@@ -2096,71 +2096,96 @@ font-weight: 600;
 }
 /* Medium Devices, .visible-md-* */
 @media (min-width: 992px) and (max-width: 1199px) {
-.timeline > li:nth-child(even) {
-  margin-bottom: 0px;
-  min-height: 0px;
-  right: 0px;
-}
-.timeline > li:nth-child(odd) {
-  margin-bottom: 0px;
-  min-height: 0px;
-  left: 0px;
-}
-.timeline>li:nth-child(even) .timeline-image {
-  left: 0;
-  margin-left: 0px;
-}
-.timeline>li:nth-child(odd) .timeline-image {
-  left: 690px;
-  margin-left: 0px;
-}
-.timeline > li:nth-child(even) .timeline-panel {
-  width: 76%;
-  padding: 0 0 20px 0px;
-  text-align: left;
-}
-.timeline > li:nth-child(odd) .timeline-panel {
-  width: 70%;
-  padding: 0 0 20px 0px;
-  text-align: right;
-}
-.timeline > li .line {
-  display: none;
-}
+  .timeline > li:nth-child(even) {
+    margin-bottom: 0px;
+    min-height: 0px;
+    right: 0px;
+  }
+  .timeline > li:nth-child(odd) {
+    margin-bottom: 0px;
+    min-height: 0px;
+    left: 0px;
+  }
+  .timeline>li .timeline-image {
+    position: static;
+    width: 150px;
+    height: 150px;
+    margin-bottom:0px;
+  }
+  .timeline>li:nth-child(even) .timeline-image {
+    left: 0;
+    margin-left: 0;
+    display: none;
+  }
+  .timeline>li:nth-child(odd) .timeline-image {
+    display: none;
+    left: 0px;
+    margin-left:0;
+    
+  }
+  .timeline > li:nth-child(even) .timeline-panel {
+    width: 100%;
+    padding: 0 0 20px 14px;
+    text-align: center;
+  }
+  .timeline > li:nth-child(odd) .timeline-panel {
+    width: 100%;
+    padding: 0 14px 20px 0px;
+    text-align: center;
+  }
+  .timeline > li .line {
+    display: none;
+  }
+  .timeline .timeline-panel .timeline-heading .subheading {
+    text-align: center;
+  }
 }
 /* Small Devices, Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-.timeline > li:nth-child(even) {
-  margin-bottom: 0px;
-  min-height: 0px;
-  right: 0px;
-}
-.timeline > li:nth-child(odd) {
-  margin-bottom: 0px;
-  min-height: 0px;
-  left: 0px;
-}
-.timeline>li:nth-child(even) .timeline-image {
-  left: 0;
-  margin-left: 0px;
-}
-.timeline>li:nth-child(odd) .timeline-image {
-  left: 520px;
-  margin-left: 0px;
-}
-.timeline > li:nth-child(even) .timeline-panel {
-  width: 70%;
-  padding: 0 0 20px 0px;
-  text-align: left;
-}
-.timeline > li:nth-child(odd) .timeline-panel {
-  width: 70%;
-  padding: 0 0 20px 0px;
-  text-align: right;
-}
-.timeline > li .line {
-  display: none;
-}
+  .timeline > li:nth-child(even) {
+    margin-bottom: 0px;
+    min-height: 0px;
+    right: 0px;
+  }
+  .timeline > li:nth-child(odd) {
+    margin-bottom: 0px;
+    min-height: 0px;
+    left: 0px;
+  }
+  .timeline>li .timeline-image {
+    position: static;
+    width: 150px;
+    height: 150px;
+    margin-bottom:0px;
+  }
+  .timeline>li:nth-child(even) .timeline-image {
+    left: 0;
+    margin-left: 0;
+    display: none;
+  }
+  .timeline>li:nth-child(odd) .timeline-image {
+    display: none;
+    left: 0px;
+    margin-left:0;
+    
+  }
+  .timeline > li:nth-child(even) .timeline-panel {
+    width: 100%;
+    padding: 0 0 20px 14px;
+    text-align: center;
+  }
+  .timeline > li:nth-child(odd) .timeline-panel {
+    width: 100%;
+    padding: 0 14px 20px 0px;
+    text-align: center;
+  }
+  .timeline > li .line {
+    display: none;
+  }
+  .timeline .timeline-panel .timeline-heading .subheading {
+    text-align: center;
+  }
+
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 767px) {
@@ -2183,21 +2208,29 @@ font-weight: 600;
 .timeline>li:nth-child(even) .timeline-image {
   left: 0;
   margin-left: 0;
+  display: none;
 }
 .timeline>li:nth-child(odd) .timeline-image {
-  float:right;
+  display: none;
   left: 0px;
   margin-left:0;
+  
 }
 .timeline > li:nth-child(even) .timeline-panel {
   width: 100%;
   padding: 0 0 20px 14px;
+  text-align: center;
 }
 .timeline > li:nth-child(odd) .timeline-panel {
   width: 100%;
   padding: 0 14px 20px 0px;
+  text-align: center;
 }
 .timeline > li .line {
   display: none;
+}
+.timeline .timeline-panel .timeline-heading .subheading {
+  text-align: center;
+  
 }
 }

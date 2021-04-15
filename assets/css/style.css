@@ -193,35 +193,16 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
 }
 
-@media (max-width: 761px) {
-  #header #logo h1 {
-    display:none;
-  }
-
+#header #logo2 img {
+  padding: 0;
+  margin-top: 0px;
+  max-height: 40px;
+  float: left;
 }
 
-/*--------------------------------------------------------------
-# Header2
---------------------------------------------------------------*/
-#header2 {
-  height: 90px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  transition: all 0.5s;
-  z-index: 997;
-}
-
-
-#header2, #header2 .header-inner {
-  background: #fff;
-  height: 70px;
-}
-
-
-#header2 #logo h1 {
+#header #logo2 h1 {
   font-family:'Space Mono', monospace;
+  margin-top: 0px;
   font-size: 30px;
   text-transform: lowercase;
   background: linear-gradient(45deg,#E0BBE4, #957DAD, #D291BC, #FEC8D8, #FFDFD3);
@@ -235,39 +216,13 @@ h1, h2, h3, h4, h5, h6 {
   float:right;
   padding-left:20px;
 }
-
-#header2 #logo h1 span {
-  font-family:'Space Mono', monospace;
-  text-transform: lowercase;
-  font-size: 30px;
-  background: linear-gradient(45deg,#E0BBE4, #957DAD, #D291BC, #FEC8D8, #FFDFD3);
-  background-size: 600% 100%;
-  animation: gradient 8s linear infinite;
-  animation-direction: alternate;
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
-	text-fill-color: transparent;
-
-}
-
-#header2 #logo h1 a, #header #logo h1 a:hover {
-  color: none;
-}
-
-#header2 #logo img {
-  padding: 0px;
-  margin: 15px;
-  max-height: 40px;
-  float: left;
-}
-
 @media (max-width: 761px) {
-  #header2 #logo h1 {
+  #header #logo h1 {
     display:none;
   }
 
 }
+
 
 /*--------------------------------------------------------------
 # Buy Tickets
@@ -1410,10 +1365,13 @@ display:inline-block;
 }
 .our-webcoderskull .cnt-block h3 a{
 text-decoration:none;
-color:#2a2a2a;
+font-family:'Space Mono', monospace;
+font-size: 25px;
+font-weight: 600;
+color: #000;
 }
 .our-webcoderskull .cnt-block h3 a:hover{
-color:#337ab7;
+color:#D291BC;
 }
 .our-webcoderskull .cnt-block p{ 
  color:#2a2a2a; 

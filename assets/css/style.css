@@ -1301,6 +1301,7 @@ align-content: center;
 
 .heading.heading-icon {
   display: block;
+  font-family:'Space Mono', monospace;
 }
 .padding-lg {
 display: block;
@@ -1367,6 +1368,13 @@ display:inline-block;
  height:148px; 
  border-radius:100%; 
 }
+
+.our-webcoderskull .cnt-block .partners img{ 
+  width: 130%;
+  height: 150%;
+  border-radius:0%; 
+ }
+
 .our-webcoderskull .cnt-block h3{ 
  color:#2a2a2a; 
  font-size:25px; 

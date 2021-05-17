@@ -1071,7 +1071,6 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sponsor Progress Section
 --------------------------------------------------------------*/
-
 .progress-bg {
   margin: 0 auto;
   width: 65%;
@@ -1284,12 +1283,12 @@ body .progress-bg div {
 
 .row.heading h2 {
   color: #fff;
-  font-size: 70px;
+  font-size: 52.52px;
   line-height: 95px;
   font-weight: 400;
   text-align: center;
-  margin: 0 0 0px;
-  padding-bottom: 0px;
+  margin: 0 0 40px;
+  padding-bottom: 20px;
   text-transform: uppercase;
   font-family:'Space Mono', monospace;
 }
@@ -1345,6 +1344,7 @@ display:inline-block;
   background-size: 600% 100%;
   animation: gradient 8s linear infinite;
   animation-direction: alternate;
+  margin: 0%;
 
 }
 .our-webcoderskull .cnt-block{ 
@@ -1582,12 +1582,7 @@ margin:0 5px;
 #subscribe .section-header h2, #subscribe p {
   color: #fff;
 }
-#column1 {
-  @media (min-width: 767px) {
-    #img {
-      width: 100%;
-    }
-}
+
 #subscribe input {
   background: #fff;
   color: #fff;
@@ -1604,7 +1599,6 @@ margin:0 5px;
     min-width: 400px;
   }
 }
-
 
 #subscribe button {
   border: 0;
